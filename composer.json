@@ -1,0 +1,25 @@
+{
+    "name": "deltagestor/sisgenfe",
+    "description": "SDK SISGENFe WebService",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deltagestor\\Sisgenfe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wesley Silva",
+            "email": "wesleysilva@lidmo.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
